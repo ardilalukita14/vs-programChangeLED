@@ -11,10 +11,10 @@ void setup() {
 
 void loop() {
   digitalWrite(RED_LED, HIGH); //LED RED menyala
-  digitalWrite(BUILTIN_LED, LOW); //LED BLUE mati
-  delay(2000);
+  // digitalWrite(BUILTIN_LED, LOW); //LED BLUE mati
+  delay(1000);
   digitalWrite(RED_LED, LOW);
-  digitalWrite(BUILTIN_LED, HIGH);
-  delay(2000);
+  // digitalWrite(BUILTIN_LED, HIGH);
+  delay(1000);
   // put your main code here, to run repeatedly:
 }
